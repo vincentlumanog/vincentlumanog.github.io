@@ -1,2 +1,0 @@
-vincentlumanog.github.io
-========================

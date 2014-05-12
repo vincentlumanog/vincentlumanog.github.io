@@ -1,0 +1,10 @@
+
+    $(document).ready(function(e){
+        var id = $(this).attr('href');
+        var name = $(this).attr('name');
+
+        $.post('/edit.php',{id:id}, function(data) {
+        $('#edit_name').val(name);
+
+    });
+    });
